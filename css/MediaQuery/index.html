@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>MediaQuery</title>
+
+        <style>
+
+            .container{
+                display: flex;
+                flex-direction: row;
+                max-width: 1200px;
+                margin: 0 auto;
+            }
+
+            .food{
+                border: 3px solid red;
+                border-radius: 30px;
+                margin: 10px;
+                width: 500px;
+                
+            }
+
+            .food img{
+                width: 100%;
+
+            }
+
+            @media (max-width: 760px){
+                .container{
+                    flex-direction: column;
+                }
+                .container .food{
+                    background-color: blue;
+                }
+            }
+
+            @media (min-width: 1200px){
+                .container .food{
+                    background-color: red;
+                }
+            }
+            
+        </style>
+
+    </head>
+
+    <body>
+
+         <div class="container">
+         	
+             <div class="food">
+             	 <img src="food.jpg" alt="">
+                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Velit dignissim sodales ut eu sem integer vitae. Sollicitudin aliquam ultrices sagittis orci a scelerisque purus semper. Orci sagittis eu volutpat odio facilisis mauris sit amet massa. Consequat ac felis donec et odio pellentesque diam volutpat commodo. Non nisi est sit amet facilisis. Dui faucibus in ornare quam viverra orci sagittis.</p>
+             </div>
+             <div class="food">
+                 <img src="food.jpg" alt="">
+                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Velit dignissim sodales ut eu sem integer vitae. Sollicitudin aliquam ultrices sagittis orci a scelerisque purus semper. Orci sagittis eu volutpat odio facilisis mauris sit amet massa. Consequat ac felis donec et odio pellentesque diam volutpat commodo. Non nisi est sit amet facilisis. Dui faucibus in ornare quam viverra orci sagittis.</p>
+             </div>
+             <div class="food">
+                 <img src="food.jpg" alt="">
+                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Velit dignissim sodales ut eu sem integer vitae. Sollicitudin aliquam ultrices sagittis orci a scelerisque purus semper. Orci sagittis eu volutpat odio facilisis mauris sit amet massa. Consequat ac felis donec et odio pellentesque diam volutpat commodo. Non nisi est sit amet facilisis. Dui faucibus in ornare quam viverra orci sagittis.</p>
+             </div>
+             <div class="food">
+                 <img src="food.jpg" alt="">
+                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Velit dignissim sodales ut eu sem integer vitae. Sollicitudin aliquam ultrices sagittis orci a scelerisque purus semper. Orci sagittis eu volutpat odio facilisis mauris sit amet massa. Consequat ac felis donec et odio pellentesque diam volutpat commodo. Non nisi est sit amet facilisis. Dui faucibus in ornare quam viverra orci sagittis.</p>
+             </div>
+             <div class="food">
+                 <img src="food.jpg" alt="">
+                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Velit dignissim sodales ut eu sem integer vitae. Sollicitudin aliquam ultrices sagittis orci a scelerisque purus semper. Orci sagittis eu volutpat odio facilisis mauris sit amet massa. Consequat ac felis donec et odio pellentesque diam volutpat commodo. Non nisi est sit amet facilisis. Dui faucibus in ornare quam viverra orci sagittis.</p>
+             </div>
+             <div class="food">
+                 <img src="food.jpg" alt="">
+                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Velit dignissim sodales ut eu sem integer vitae. Sollicitudin aliquam ultrices sagittis orci a scelerisque purus semper. Orci sagittis eu volutpat odio facilisis mauris sit amet massa. Consequat ac felis donec et odio pellentesque diam volutpat commodo. Non nisi est sit amet facilisis. Dui faucibus in ornare quam viverra orci sagittis.</p>
+             </div>
+
+         </div>
+
+    </body>
+
+</html>
